@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(161, 76, 6);
+}
+
+header {
+  background-image: url(./assets/orangebanner.jpg);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.right {
+  font-size: 70px;
+}
+
+.left {
+  font-size: 70px;
+}
+
+.menu {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #ff6347;
+}
+
+main {
+  min-height: 100vh;
+  background-image: url("assets/fizz.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding-top: 60px;
+}
+
+.presents h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.icons img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.amumu :hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.fizz :hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.galio :hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.bandeira,
+img {
+  height: 500px;
+}

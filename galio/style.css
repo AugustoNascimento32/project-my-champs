@@ -1,0 +1,219 @@
+body {
+  background: linear-gradient(
+    rgb(241, 226, 9),
+    rgb(158, 148, 1),
+    rgb(34, 33, 1)
+  );
+}
+
+header {
+  background-image: url(../assets/goldbanner.jpeg);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  color: rgb(3, 2, 0);
+}
+
+.right {
+  font-size: 70px;
+}
+
+.left {
+  font-size: 70px;
+}
+
+#link__decoratioin {
+  text-decoration: none;
+  color: gold;
+}
+
+#link__decoration:hover {
+  color: black;
+}
+
+.menu {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #a7991c;
+}
+
+main {
+  background-image: url(../assets/galiobanner2.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgba(37, 36, 36, 0.781);
+  border: 1px solid rgba(36, 34, 34, 0.438);
+  padding: 20px;
+  text-align: center;
+}
+
+.maestria {
+  flex: 1;
+  min-width: 200px;
+}
+
+.box img {
+  position: relative;
+  z-index: 9999;
+}
+
+.box.maestria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box.maestria img:last-child {
+  margin-top: 30px;
+  max-width: 250px;
+  height: auto;
+}
+
+.circle {
+  flex: 2;
+  min-width: 300px;
+}
+
+.role {
+  flex: 1;
+  min-width: 200px;
+}
+
+.skills {
+  flex: 1;
+  min-width: 200px;
+  width: 100%;
+}
+
+.box.skills {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 200px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.first-letter {
+  font-size: 32px;
+  font-weight: bold;
+  color: gold;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid gold;
+  color: gold;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: gold;
+  color: black;
+}
+
+.bio_box {
+  max-width: 100px;
+}
+
+.profile {
+  width: 120px;
+  border-radius: 50%;
+}
+
+#text_continue {
+  width: 300px;
+  max-height: 120px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.3s ease;
+}
+
+#text_continue:hover {
+  max-height: 500px;
+}
+
+#text_continue:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0),
+    rgba(10, 10, 10, 1)
+  );
+  pointer-events: none;
+}
+
+#text_continue:hover::after {
+  display: none;
+}
+
+.skills,
+#skills {
+  height: 250px;
+}
